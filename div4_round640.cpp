@@ -105,7 +105,6 @@ void solve() {
         bob.push_back(tb);
         if(tb > 0) turn++;
     }
-    cout << l << ' ' << r << endl;
     cout << turn << ' ' << accumulate(all(alice), 0) << ' ' << accumulate(all(bob), 0) << endl;
 }
 
